@@ -6,52 +6,50 @@ const Contact = () => {
   return (
     <>
       <SEO
-        title="Contact Us"
+        title="Contactez-Nous"
         description="Get in touch with our veterinary team. We're here to help with all your pet care needs."
       />
 
       <div className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Contact Us</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Have questions? We're here to help. Contact our team for any inquiries about our services.
-            </p>
+            Vous avez des questions ? Nous sommes là pour vous aider. Contactez notre équipe pour toute question sur nos services.            </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <div className="bg-white p-8 rounded-xl shadow-sm mb-8">
-                <h2 className="text-2xl font-semibold mb-6">Get in Touch</h2>
+                <h2 className="text-2xl font-semibold mb-6">Contactez-Nous</h2>
                 <form className="space-y-4">
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Your Name
+                      Votre Nom
                     </label>
                     <input
                       type="text"
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      placeholder="Enter your name"
+                      placeholder="Entrer votre nom "
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Email Address
+                      Adresse Email
                     </label>
                     <input
                       type="email"
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      placeholder="Enter your email"
+                      placeholder="Entrer votre email"
                     />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-1">
-                      Subject
+                      Sujet
                     </label>
                     <input
                       type="text"
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-                      placeholder="Enter subject"
+                      placeholder="Entrer sujet"
                     />
                   </div>
                   <div>
@@ -61,14 +59,14 @@ const Contact = () => {
                     <textarea
                       className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
                       rows={4}
-                      placeholder="Enter your message"
+                      placeholder="Entrer votrer message"
                     ></textarea>
                   </div>
                   <button
                     type="submit"
                     className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition"
                   >
-                    Send Message
+                    Envoyer Message
                   </button>
                 </form>
               </div>
@@ -76,35 +74,36 @@ const Contact = () => {
 
             <div>
               <div className="bg-white p-8 rounded-xl shadow-sm mb-8">
-                <h2 className="text-2xl font-semibold mb-6">Contact Information</h2>
+                <h2 className="text-2xl font-semibold mb-6"> Information de contact</h2>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <Phone className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-gray-600">+1 234 567 890</p>
+                      <p className="text-gray-600">+212 6 23-210-441 / +212 6 22-726-903</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Mail className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-gray-600">contact@vetcare.com</p>
+                      <p className="text-gray-600">dornor82@gmail.com</p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
-                      <p className="font-medium">Address</p>
-                      <p className="text-gray-600">123 Pet Care Street, City</p>
+                      <p className="font-medium">Adresse</p>
+                      <p className="text-gray-600">Commune rurale Ouled Zmam Fqui Ben Saleh </p>
                     </div>
                   </div>
                   <div className="flex items-center">
                     <Clock className="w-6 h-6 text-blue-600 mr-4" />
                     <div>
                       <p className="font-medium">Hours</p>
-                      <p className="text-gray-600">Mon-Fri: 8:00-20:00</p>
-                      <p className="text-gray-600">Sat: 9:00-17:00</p>
+                      <p className="text-gray-600">Lundi-Samedi: Matin 8:00-12:00  </p>
+                      <p className="text-gray-600">     Après-midi 14:00 à 18:00 </p>
+
                     </div>
                   </div>
                 </div>

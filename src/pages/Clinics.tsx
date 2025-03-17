@@ -6,18 +6,12 @@ const Clinics = () => {
   const clinics = [
     {
       name: 'Main Clinic',
-      address: '123 Pet Care Street, Downtown',
-      phone: '+1 234 567 890',
+      address: 'Commune rural Ouled Zmam Fquih Ben Saleh',
+      phone: '+212 6 22 726 903',
       hours: 'Mon-Fri: 8:00-20:00, Sat: 9:00-17:00',
       image: 'https://images.unsplash.com/photo-1516841273335-e39b37888115?auto=format&fit=crop&q=80&w=800',
     },
-    {
-      name: 'North Branch',
-      address: '456 Animal Health Ave, Northside',
-      phone: '+1 234 567 891',
-      hours: 'Mon-Fri: 9:00-19:00, Sat: 10:00-16:00',
-      image: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&q=80&w=800',
-    },
+  
   ];
 
   return (
@@ -32,7 +26,7 @@ const Clinics = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Clinics</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Visit one of our modern facilities equipped with the latest technology for your pet's care.
+            Visitez l’un de nos établissements modernes équipés des dernières technologies pour les soins de votre animal.
             </p>
           </div>
 

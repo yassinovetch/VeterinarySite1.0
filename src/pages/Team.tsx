@@ -25,13 +25,7 @@ const Team = () => {
       description: 'Passionate about preventive care and animal behavior.',
       specialties: ['Preventive Medicine', 'Animal Behavior', 'Dental Care'],
     },
-    {
-      name: 'Dr. James Wilson',
-      role: 'Emergency Care Specialist',
-      image: 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=800',
-      description: 'Dedicated to providing urgent and critical care for pets.',
-      specialties: ['Emergency Medicine', 'Critical Care', 'Internal Medicine'],
-    },
+
   ];
 
   return (
