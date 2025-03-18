@@ -110,11 +110,11 @@ const Contact = () => {
               </div>
 
               <div className="bg-blue-600 p-6 rounded-xl text-white">
-                <h3 className="text-xl font-semibold mb-2">Emergency Service</h3>
+                <h3 className="text-xl font-semibold mb-2">Service d'urgence</h3>
                 <p className="mb-4">
-                  For after-hours emergencies, please call our 24/7 emergency line:
+                Pour les urgences en dehors des heures d’ouverture, veuillez appeler 24/7 :
                 </p>
-                <p className="text-2xl font-bold">+1 234 567 890</p>
+                <p className="text-2xl font-bold">+212 6 22-726-903</p>
               </div>
             </div>
           </div>

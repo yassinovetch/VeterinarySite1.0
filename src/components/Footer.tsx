@@ -15,19 +15,19 @@ const Footer = () => {
             <div className="space-y-3 text-gray-400">
               <div className="flex items-center">
                 <Phone className="w-5 h-5 mr-2" />
-                <span>+1 234 567 890</span>
+                <span>06 23-210-441/ 06 22-726-903</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-5 h-5 mr-2" />
-                <span>contact@vetcare.com</span>
+                <span>dornor82@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2" />
-                <span>123 Pet Care Street, City</span>
+                <span>Commune rurale Ouled Zmam Fqui Ben Saleh</span>
               </div>
               <div className="flex items-center">
                 <Clock className="w-5 h-5 mr-2" />
-                <span>Mon-Fri: 8:00-20:00</span>
+                <span>Lundi-Samedi: Matin 8:00-12:00 Après-midi 14:00 à 18:00</span>
               </div>
             </div>
           </div>
@@ -38,9 +38,9 @@ const Footer = () => {
               {[
                 { name: 'Home', path: '/' },
                 { name: 'Services', path: '/services' },
-                { name: 'Our Team', path: '/team' },
+                { name: 'Notre équipe', path: '/team' },
                 { name: 'Contact', path: '/contact' },
-                { name: 'Legal Notices', path: '/legal' },
+              /*  { name: 'Legal Notices', path: '/legal' },*/
               ].map((item) => (
                 <li key={item.path}>
                   <Link
@@ -55,14 +55,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Our Services</h3>
+            <h3 className="text-lg font-semibold mb-4">Nos Services</h3>
             <ul className="space-y-2">
               {[
-                'General Consultations',
-                'Surgery',
-                'Laboratory Analysis',
-                'Medical Imaging',
-                'Emergency Care',
+                ' Consultation générale',
+                'Délivrance des médicaments',
+                'Analyses laboratoire',
+                'Imagérie Médicale',
+                'Soins urgence',
+                'Visite à domicile',
               ].map((service) => (
                 <li key={service}>
                   <Link
@@ -103,8 +104,8 @@ const Footer = () => {
             </div>
             <div className="bg-gray-800 p-4 rounded-lg">
               <p className="text-sm text-gray-400">
-                For emergencies outside of business hours, please call our 24/7 emergency line:
-                <span className="block text-white font-semibold mt-1">+1 234 567 890</span>
+              Pour les urgences en dehors des heures d’ouverture, veuillez appeler notre ligne d’urgence 24h/7j:
+                <span className="block text-white font-semibold mt-1"> +212 6 22-726-903</span>
               </p>
             </div>
           </div>

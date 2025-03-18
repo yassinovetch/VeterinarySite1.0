@@ -6,10 +6,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
+   /*{ name: 'Accueil', path: '/' },*/
     { name: 'Services', path: '/services' },
-    { name: 'Our Team', path: '/team' },
-    { name: 'Our Clinics', path: '/clinics' },
-    { name: 'Teleconsultation', path: '/teleconsultation' },
+    { name: 'Notre équipe', path: '/team' },
+    { name: 'Notre Clinique', path: '/clinics' },
+    /*{ name: 'Teleconsultation', path: '/teleconsultation' },*/
     { name: 'Contact', path: '/contact' },
   ];
 
@@ -21,7 +22,7 @@ const Navbar = () => {
           <div className="flex justify-end items-center">
             <div className="flex items-center text-sm text-gray-600">
               <Phone className="w-4 h-4 mr-2" />
-              <span>Emergency: +1 234 567 890</span>
+              <span>Urgence: +212 6 22-726-903</span>
             </div>
           </div>
         </div>
@@ -48,11 +49,11 @@ const Navbar = () => {
                 {item.name}
               </NavLink>
             ))}
-            <Link
+           <Link
               to="/teleconsultation"
               className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
             >
-              Book Online
+              Teleconsultation
             </Link>
           </div>
 

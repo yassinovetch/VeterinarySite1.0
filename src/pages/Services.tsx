@@ -6,60 +6,60 @@ const Services = () => {
   const services = [
     {
       icon: <Stethoscope className="w-8 h-8" />,
-      title: 'General Consultations',
-      description: 'Comprehensive health check-ups and preventive care for your pets.',
+      title: 'Consultation générale',
+      description: 'Bilans de santé complets et soins préventifs pour vos animaux.',
     },
     {
       icon: <Syringe className="w-8 h-8" />,
-      title: 'Surgeries',
-      description: 'Advanced surgical procedures performed by experienced veterinarians.',
+      title: 'Chirurgies',
+      description: 'Procédures chirurgicales avancées effectuées par des vétérinaires expérimentés.',
     },
     {
       icon: <Microscope className="w-8 h-8" />,
-      title: 'Laboratory Analyses',
-      description: 'In-house testing facilities for quick and accurate diagnoses.',
+      title: 'Analyses en laboratoire',
+      description: 'Analyses pour des diagnostics rapides et précis.',
     },
     {
       icon: <Camera className="w-8 h-8" />,
-      title: 'Medical Imaging',
-      description: 'State-of-the-art imaging including X-rays and ultrasound.',
+      title: 'Imagerie Médicale',
+      description: 'Imagerie de pointe, y compris les rayons X et les ultrasons.',
     },
     {
       icon: <Heart className="w-8 h-8" />,
-      title: 'Hospitalization',
-      description: '24/7 care and monitoring for pets requiring extended medical attention.',
+      title: 'Hospitalisation',
+      description: 'Soins et surveillance 24h/7j pour les animaux nécessitant des soins médicaux prolongés.',
     },
+
     {
-      icon: <Truck className="w-8 h-8" />,
-      title: 'Home Visits',
-      description: 'Veterinary care in the comfort of your home for special cases.',
+      icon: <Pills className="w-8 h-8" />,
+      title: 'Délivrance des médicaments',
+      description: 'Pharmacie à service complet pour tous les besoins en prescription de vos animaux',
     },
     {
       icon: <Pills className="w-8 h-8" />,
-      title: 'Medication Dispensing',
-      description: 'Full-service pharmacy for all your pets\' prescription needs.',
+      title: 'Visite à domicile',
+      description: 'Des Soins Pratiques et Personnalisés pour Vos Animaux à la Maison',
     },
     {
       icon: <Video className="w-8 h-8" />,
       title: 'Teleconsultation',
-      description: 'Virtual consultations for non-emergency medical advice.',
+      description: 'Consultations virtuelles pour des conseils médicaux des urgents mineurs.',
     },
   ];
 
   return (
     <>
       <SEO
-        title="Our Services"
+        title="Nos Services"
         description="Comprehensive veterinary services including consultations, surgeries, lab work, and emergency care."
       />
 
       <div className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Services</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Nos Services</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              We offer a comprehensive range of veterinary services to keep your pets healthy and happy.
-            </p>
+            Nous offrons une gamme complète de services vétérinaires pour garder vos animaux de compagnie en bonne santé et heureux.            </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
