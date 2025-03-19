@@ -15,7 +15,8 @@ const Home = () => {
       <section className="relative h-[600px]">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=60&w=2070" 
+            /*src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=60&w=2070" */
+            src="src/assets/pictures/Principale.png?auto=format&fit=crop&q=60&w=2070"
             alt="Veterinary Care" 
             className="w-full h-full object-cover"
           />
@@ -65,7 +66,8 @@ Grâce à des installations à la fine pointe de la technologie et à une approc
             </div>
             <div className="relative h-[500px]">
               <img 
-                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=2068" 
+                /*src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=2068" */
+                src="src/assets/pictures/interieur.png?auto=format&fit=crop&q=80&w=2068"
                 alt="Veterinary Team" 
                 className="w-full h-full object-cover rounded-lg"
               />
