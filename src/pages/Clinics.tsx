@@ -17,14 +17,14 @@ const Clinics = () => {
   return (
     <>
       <SEO
-        title="Our Clinics"
-        description="Find our veterinary clinics near you. Multiple locations with state-of-the-art facilities for your pet's care."
+        title="Notre Clinique"
+        description="Notre site doté d'installations de pointe pour les soins de votre animal."
       />
 
       <div className="bg-gray-50 py-12">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">Our Clinics</h1>
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">Notre Clinique</h1>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Visitez l’un de nos établissements modernes équipés des dernières technologies pour les soins de votre animal.
             </p>
