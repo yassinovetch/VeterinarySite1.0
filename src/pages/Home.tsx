@@ -1,5 +1,4 @@
 import React from 'react';
-import logoo from './assets/Principale.png';
 import { Link } from 'react-router-dom';
 import { Calendar, Clock, Phone, MapPin, Heart, Syringe, Stethoscope, ChevronRight, Star,Pill as Pills } from 'lucide-react';
 import SEO from '../components/SEO';
@@ -17,7 +16,7 @@ const Home = () => {
         <div className="absolute inset-0">
           <img 
             /*src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=60&w=2070" */
-            src="/Images/Principale.png?auto=format&fit=crop&q=60&w=2070"
+            src="/Images/Principale.png?auto=format&fit=crop&q=80&w=2070"
             alt="Veterinary Care" 
             className="w-full h-full object-cover"
           />
@@ -68,7 +67,7 @@ Grâce à des installations à la fine pointe de la technologie et à une approc
             <div className="relative h-[500px]">
               <img 
                 /*src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=2068" */
-                src="../assets/pictures/interieur.png?auto=format&fit=crop&q=80&w=2068"
+                src="/Images/interieur.png?auto=format&fit=crop&q=80&w=2068"
                 alt="Veterinary Team" 
                 className="w-full h-full object-cover rounded-lg"
               />
