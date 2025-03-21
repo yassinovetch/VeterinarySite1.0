@@ -1,20 +1,22 @@
 import React from 'react';
 import SEO from '../components/SEO';
 import { Mail } from 'lucide-react';
-
+const Sty1={
+  height:'460px'
+  }
 const Team = () => {
   const team = [
     {
       name: 'Dr. DOURHOU NOUREDDINE',
       role: 'Vétérinaire mixte ',
-      image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&q=80&w=800',
+      image: '/Images/VetDoctor.png?auto=format&fit=crop&q=80&w=800',
       description: 'Expert en médecine rurale et canine avec plus de 15 ans d’expérience.',
       specialties: ['Médecine générale', 'Chirurgie', 'Soins préventifs','Soins urgence'],
     },
     {
       name: 'Dr. ABID SAIDA',
       role: 'Vétérinaire auxiliaire',
-      image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800',
+      image: '/Images/assistante.png?auto=format&fit=crop&q=80&w=800',
       description: 'spécialisée en médicine générale et soins de premier niveau.',
       specialties: ['Médecine générale', 'Soins préventifs'],
     },
@@ -47,6 +49,7 @@ const Team = () => {
                     src={member.image}
                     alt={member.name}
                     className="w-full h-64 object-cover"
+                    style={Sty1}
                   />
                 </div>
                 <div className="p-6">
