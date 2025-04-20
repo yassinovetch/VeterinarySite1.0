@@ -2,7 +2,7 @@ import React from 'react';
 import SEO from '../components/SEO';
 import { Mail } from 'lucide-react';
 const Sty1={
-  height:'460px'
+  height:'480px'
   }
 const Team = () => {
   const team = [
